@@ -1,2 +1,3 @@
-#KOkoa Clone 2023 Update
-CSS got so much better!
+# Kokoa Clone 2023 Update
+
+CSS&HTML are so much better!
