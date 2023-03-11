@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/stlyes.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats-Kokoa Clone</title>
+  </head>
+  <body>
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>02:03</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span
+          ><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <!--myself start-->
+      <a href="chat0.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="me.jpg" class="user-component__avatar" />
+            <div class="user-component__text">
+              <div class="user-component__pin">
+                <i class="fas fa-thumbtack"></i>
+              </div>
+
+              <h4 class="user-component__title">Yoonju</h4>
+
+              <h6 class="user-component__subtitle">
+                코코아톡 클론코딩 2.0~2.4까지 듣기...ㅠ
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">01:03</span>
+          </div>
+        </div></a
+      >
+      <!--myself end-->
+      <a href="chat.html"
+        ><div class="user-component">
+          <div class="user-component__column">
+            <img src="moonsik2.jpg" class="user-component__avatar" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Moonsik👶🏻💗</h4>
+              <h6 class="user-component__subtitle">감자님 열공 중이신가요~?</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">01:22</span>
+            <div class="badge">1</div>
+          </div>
+        </div></a
+      >
+      <!--채팅방1 끝-->
+      <!--채팅방2 시작-->
+
+      <a href="chat2.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="jidong.jpg" class="user-component__avatar" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Jidong🌝 ♥</h4>
+              <h6 class="user-component__subtitle">
+                진짜 30분부터 번역 시작한다 ㅋ
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">01:18</span>
+            <div class="badge">1</div>
+          </div>
+        </div></a
+      >
+
+      <!--채팅방2끝-->
+      <!--그룹채팅 시작-->
+      <a href="chat3.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://cdn-icons-png.flaticon.com/512/4977/4977982.png" class="user-component__avatar" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Coding(Open-Chat)</h4>
+              <h6 class="user-component__subtitle">
+               코딩 공부방에 오신걸 환영합니다! 👏
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">11:08</span>
+            <div class="badge">1</div>
+          </div>
+        </div></a
+      >
+      <!--그룹채팅 끝-->
+  
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav_link" href="chats.html"
+            ><i class="fas fa-comment fa-2x"></i>
+            <span class="nav__notification badge">3</span>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav_link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav_link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+          <i class="fas fa-ellipss-h fa-2x"></i>
+        </li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <i class="fas fa-heart">
+        <span class="load">loading...</span>
+      </i>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/67a258783e.js"
+      crossorigin="anonymous"
+    ></script>
+    <div id="no-mobile">
+      <span>Your screen is too big :(</span>
+    </div>
+  </body>
+</html>
