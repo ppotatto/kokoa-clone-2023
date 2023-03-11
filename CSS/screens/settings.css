@@ -1,0 +1,38 @@
+.settings-setting {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.7;
+}
+
+.settings-setting__column:last-child {
+  opacity: 0.5;
+}
+.def {
+  opacity: 0.5;
+}
+.themes_icon {
+  background-color: tomato;
+  color: white;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-small;
+  font-weight: 650;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+
