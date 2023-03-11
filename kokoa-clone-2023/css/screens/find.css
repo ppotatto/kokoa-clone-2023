@@ -152,21 +152,22 @@ body {
   font-size: 14px;
   opacity: 0.9;
 }
-
-.Open-post__new {
-  margin-top: 60px;
-  margin-left: 150px;
+.Open-post__new__container {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.Open-post__new {
   width: 300px;
   border-radius: 150px;
-  align-items: center;
   font-size: 13px;
   cursor: pointer;
   background-color: beige;
   color: black;
   padding: 10px 0px;
+  text-align: center;
 }
+
 
 .Open-post__articles {
   margin-top: 15px;
